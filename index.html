@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="htmx-lite.js"></script>
+        <link rel="stylesheet" type="text/css" href="/main.css" />
+    </head>
+    <body>
+        <div id="top">empty</div>
+        <form onsubmit="return false;">
+            <input type="text" name="text">
+            <input type="button" name="consider" value="click me" onclick="hxl_submit_form('/part1.php',event);">
+        </form>
+        <div id="content">
+            <h1>my headline</h1>
+        </div>
+    </body>
+</html>
