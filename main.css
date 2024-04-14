@@ -4,3 +4,11 @@
 .failed {
     background-color: red;
 }
+table {
+    border-collapse: collapse;
+    border: thin gray solid;
+    td, th {
+        border-collapse: collapse;
+        border: thin gray solid;    
+    }
+}

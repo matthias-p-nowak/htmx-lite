@@ -6,12 +6,18 @@
     </head>
     <body>
         <div id="top">empty</div>
-        <form onsubmit="return false;">
+        <form action="/part1.php" onsubmit="return false;">
             <input type="text" name="text">
-            <input type="button" name="consider" value="click me" onclick="hxl_submit_form('/part1.php',event);">
+            <input type="button" name="consider" value="click me" onclick="hxl_submit_form(event);">
         </form>
         <div id="content">
             <h1>my headline</h1>
         </div>
+        <table>
+            <tr id="tab1">
+                <td>old content</td>
+            </tr>
+            <tr id="tab2"><td>content to remove</td></tr>
+        </table>
     </body>
 </html>
