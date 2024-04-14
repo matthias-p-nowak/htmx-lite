@@ -34,7 +34,7 @@ As this is not `</>htmx`, i am not re-using their symbols. The approach here is 
 
 ### Client side
 
-For the sending side, the form element and the initiating element need to be annotated with the *action* and the *onXX* attribute as described above. Here, it is clear that a javascript function is called in which situations. 
+For the sending side, the form element and the initiating element need to be annotated with the *action* and the *onXX* attribute as described above. Here, it is clear that a javascript function is called and in which situations. 
 
 ## Server side
 
@@ -48,7 +48,7 @@ attribute | meaning | possible values
 --- | --- | ---
 id | element id as usual |
 x-action | what to do with this element | replace, remove, append ...
-x-id | the related element id |
+x-id | the related element id for *before*,*after*,*append* |
 
 Implemented so far:
 ~~~JS
